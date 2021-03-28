@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>3b2ea0dd-7eee-48f3-bf1d-b6cc8645f94b</Guid>
+    <Name>RustyImmolatorAttachmentFIX</Name>
+    <Description>Description of My XCOM 2 Mod.</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>RustyImmolatorAttachmentFIX</AssemblyName>
+    <RootNamespace>RustyImmolatorAttachmentFIX</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\RustyImmolatorAttachmentFIX\" />
+    <Folder Include="Src\RustyImmolatorAttachmentFIX\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComRIAFConfig.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComUpgradeSlots_RustyBackup.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Src\RustyImmolatorAttachmentFIX\Classes\X2DownloadableContentInfo_RustyImmolatorAttachmentFIX.uc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
